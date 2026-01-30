@@ -1,0 +1,395 @@
+/* made by Mads Floor 2026 */
+
+header {
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular',
+     'Lucida Grande', 'Lucida Sans Unicode',
+      Geneva, Verdana, sans-serif;
+    font-size: 150%;
+    -webkit-text-stroke: 2px white;
+    background-image: url("../images/banner2.png"); /* banner */
+    height: 200px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit:cover;
+}
+
+Body {
+    text-align: center;
+    background-color:rgb(255, 229, 111);
+    font-size: 137%;
+    Height: 100%;
+}
+
+h2, p {
+    font-family:'Lucida Sans', 'Lucida Sans Regular',
+     'Lucida Grande', 'Lucida Sans Unicode',
+      Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-size: 150%;
+    padding: 10px;
+    border: 10px;
+}
+
+nav ul li a.normal { /* maakt de navigatiebar beter*/
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid rgb(226, 152, 40);
+    border-radius: 20px 0px 20px 0px;
+    padding: 10px 20px 10px 20px;
+    background-color:rgb(255, 190, 12);
+    color:black;
+    box-shadow: 0 5px 2px;
+    text-wrap: nowrap;
+    transition: transform 0.65s ease, box-shadow 0.65s ease;
+}
+
+
+.NavBar { /* zorgt voor een navigatie-bar*/
+    display: flex; 
+    text-align: center;
+    gap: 100px;
+    list-style: none;
+    font-weight: bold;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+nav ul li a.normal:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px black;
+    border: 2px solid rgb(236, 173, 0);
+    background-color:rgb(255, 203, 61);
+}
+
+img.tosti {
+    padding: 50px 0px 0px 0px;
+    transition: transform 0.2s ease;
+}
+
+img.tosti:hover {
+    transform: scale(1.20);
+}
+
+h2.intro {
+font-size: 160%;
+text-decoration: underline;
+margin: 80px 0px 0px 0px;
+}
+
+p.intro {
+    width: 600px;
+    font-size: 100%;
+    text-align: center;
+    margin: 0px 0px 100px;
+    border: 3px solid rgb(226, 152, 40);
+    border-radius: 40px 0px 40px 0px;
+    padding: 10px;
+    background-color: rgb(255, 190, 12);
+    box-shadow: 7px 3px;
+}
+
+div.con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2.contact {
+    padding: 80px 0px 80px 0px;
+    color: orange;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 0.5px 0px black;
+}
+
+h3 {
+    padding: 0px 0px 0px 0px;
+}
+
+.fantastisch {
+    border: 3px solid rgb(226, 152, 40);
+    padding: 10px;
+    border-radius: 35px 0px 35px 0px;
+    background-color:rgb(255, 190, 12);
+    box-shadow: 7px 3px;
+    width: 700px;
+}
+
+em.tekst {
+    text-decoration: underline;
+}
+
+.staythere {
+  display: flex; /* als je flexbox nodig hebt */
+  position: fixed; /* zorgt dat hij vast blijft op scherm */
+  top: 30px; /* afstand vanaf bovenkant */
+  left: 10px; /* afstand vanaf linkerkant */
+  background-color: none;
+  z-index: 1000; /* zorgt dat hij boven andere content ligt */
+  list-style: none;
+  transition: transform 0.2s ease;
+}
+
+.staythere:hover {
+    transform: scale(1.15);
+}
+
+.logo {
+    border: none;
+}
+
+.recept{
+    border: 3px solid rgb(226, 152, 40);
+    padding: 10px;
+    margin: 0px 200px 0px 200px;
+    border-radius: 35px 0px 35px 0px;
+    background-color:rgb(255, 190, 12);
+    box-shadow: 7px 3px;
+    width: 800px;
+}
+
+.container {
+  position: sticky;
+  top: 0px;
+  overflow: visible;
+  background-image: linear-gradient(to bottom, rgb(255, 229, 111, 1), rgb(255, 229, 111, 0));
+}
+
+.container a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+a:link {
+    color: black;
+}
+
+a:hover {
+    color: rgb(91, 200, 200);
+}
+
+.linkjes {
+    transition: transform 0.2s ease;
+}
+
+.linkjes:hover {
+    transform: scale(1.2);
+}
+
+.emoji {
+    transition: transform 0.2s ease;
+}
+
+.emoji:hover {
+    transform: scale(1.10);
+}
+
+.hier:link {
+    color:black;
+}
+
+.hier:visited {
+    color: black;
+}
+
+.hier:hover {
+    color: cyan;
+}
+
+.FAQ {
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular',
+     'Lucida Grande', 'Lucida Sans Unicode',
+      Geneva, Verdana, sans-serif;
+    font-size: 450%;
+    -webkit-text-stroke: 2px white;
+    background-image: url("../images/banner2.png"); /* banner */
+    height: 200px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit:cover;
+}
+
+p.vraag {
+    margin: 200px 200px 0px 200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+    'Lucida Grande', 'Lucida Sans Unicode',
+    Geneva, Verdana, sans-serif;
+}
+
+p.antwoord {
+    font-size: 100%;
+    text-align: center;
+    margin: 10px 300px 200px 300px;
+    border: 3px solid rgb(226, 152, 40);
+    border-radius: 40px 0px 40px 0px;
+    padding: 20px;
+    background-color: rgb(255, 190, 12);
+    box-shadow: 7px 3px;
+}
+
+Header#recept {
+    background-image: url("../images/banner2.png"); /* banner */
+    height: 200px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit:cover;
+}
+
+p.recipelogo {
+    margin: 80px 0px;
+}
+
+p.recipe {
+    font-size: 100%;
+    text-align: center;
+    /*margin: 10px 450px 200px 450px;*/
+    width: 450px;
+    border: 3px solid rgb(226, 152, 40);
+    border-radius: 40px 0px 40px 0px;
+    padding: 10px;
+    background-color: rgb(255, 190, 12);
+    box-shadow: 7px 3px;
+}
+
+h2.recipe {
+    color: orange;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 0.5px 0px black;
+}
+
+footer {
+    padding: 100px 0px 0px 0px;
+    color: darkslategray;
+    -webkit-text-stroke: 0.3px black;
+}
+
+header#ingrediënten {
+    font-size: 400%;
+    background-image: url("../images/banner2.png"); /* banner */
+    height: 200px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit:cover;
+}
+
+h2.ingrediënten {
+    padding: 80px 0px 0px 0px;
+    color: orange;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 0.5px 0px black;
+}
+
+ul.lijst {
+    list-style: none;
+    padding: 0px;
+}
+
+.lijst li {
+    margin: 15px 0;
+    font-size: 120%;
+}
+
+.checklist label {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.checklist label .text {
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+
+.checklist label:hover .text {
+    transform: scale(1.15);
+}
+
+.checklist input[type="checkbox"] {
+    margin-right: 15px;
+}
+
+.checklist input[type="checkbox"]:checked ~ .text {
+    color: gray;
+    text-decoration: line-through;
+}
+
+button.reset {
+    margin: 40px 0 80px 0;
+    padding: 8px 12px;
+    font-size: 110%;
+    border-radius: 20px 0 20px 0;
+    border: 2px solid rgb(226, 152, 40);
+    background-color: rgb(255, 190, 12);
+    box-shadow: 0 5px 2px;
+    cursor: pointer;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+button.reset:hover {
+    transform: translateY(-5px);
+    transition: transform 0.5s ease;
+    box-shadow: 0 12px 25px black;
+}
+
+.ingredient input {
+  display: none;
+}
+
+.grootte {
+    font-size: 175%;
+}
+
+.afvinken {
+    font-size: 80%;
+    padding: 0px 0px 10px 0px;
+}
+
+.checklist input[type="checkbox"]:checked ~ .text .asterisk {
+    display: none;
+}
+
+.sterretje {
+    padding: 0px 450px 0px 450px;
+    font-size: 80%;
+}
+
+#secret {
+    font-size: 350%;
+}
+
+header.contact {
+    font-size: 350%;
+}
+
+.ingredient .custom::before {
+  content: "—";
+  font-size: 22px;
+  color: black;
+  margin-right: 12px;
+}
+
+.ingredient input:checked + .custom::before {
+  content: "✔";
+  color: gray;
+}
+
+p.manieren {
+    margin: 0px 0px 100px 0px;
+}

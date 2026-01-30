@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingrediënten</title>
+    <link href="styles/FirstStyle.css" rel="stylesheet" type="text/css">
+</head>
+<script>
+function resetChecklist() {
+    const checkboxes = document.querySelectorAll('.checklist input[type="checkbox"]');
+    checkboxes.forEach(cb => cb.checked = false);
+}
+</script>
+<body class="grootte">
+    <header id="ingrediënten">Ingrediënten</header>
+    <div class="container">
+        <div class="navbar2">
+    <nav>
+        <ul class="NavBar">
+            <li><a class="normal" href="recept.html">Hét recept</a></li>
+            <li><a class="normal" href="index.html">Home</a></li>
+            <li><a class="normal" href="ingrediënten.html">Ingrediënten</a></li>
+            <li><a class="normal" href="informatie.html">FAQ</a></li>
+            <li><a class="normal" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    </div>
+    </div>
+    <h2 class="ingrediënten">Wat heb je nodig?</h2>
+    <h3 class="afvinken">(vink hieronder af welke ingrediënten je hebt)</h3>
+<nav class="logo">
+        <ul>
+            <div class="staythere"><li>
+                <a href="index.html">
+                    <img src="images/tostilogo.png.webp" alt="tostilogo2" width="150px"></a>
+                </li></div>
+        </ul>
+</nav>
+<nav>
+    <ul class="lijst checklist">
+        <li>
+            <label class="ingredient">
+                <input type="checkbox">
+                <span class="custom"></span>
+                <span class="text">Brood</span>
+            </label>
+        </li>
+        <li>
+            <label class="ingredient">
+                <input type="checkbox">
+                <span class="custom"></span>
+                <span class="text">Boter</span>
+            </label>
+        </li>
+        <li>
+            <label class="ingredient">
+                <input type="checkbox">
+                <span class="custom"></span>
+                <span class="text">Kaas</span>
+            </label>
+        </li>
+        <li>
+            <label class="ingredient">
+                <input type="checkbox">
+                <span class="custom"></span>
+                <span class="text">Ham<span class="asterisk">*</span></span>
+            </label>
+        </li>
+        <li>
+            <label class="ingredient">
+                <input type="checkbox">
+                <span class="custom"></span>
+                <span class="text">Mes</span>
+            </label>
+        </li>
+        <li>
+            <label class="ingredient">
+                <input type="checkbox">
+                <span class="custom"></span>
+                <span class="text">Tosti-ijzer<span class="asterisk">*</span></span>
+            </label>
+        </li>
+        <li style="font-size: 25px; margin: 50px 0px 0px 0px;">(optioneel)</li>
+        <li style="font-size: 30px;">
+            <label class="ingredient">
+                <input type="checkbox">
+                <span class="custom"></span>
+                <span class="text">Oregano/italiaanse kruiden</span>
+            </label>
+        </li>
+        <li>
+            <label class="ingredient">
+                <input type="checkbox">
+                <span class="custom"></span>
+                <span class="text">Saus</span>
+            </label>
+        </li>
+    </ul>
+</nav>
+<button class="reset" onclick="resetChecklist()">Reset</button>
+<p class="sterretje">*geen ham? je kunt kruidenkaas goed als vervanger gebruiken! Het klinkt misschien gek, maar het voegt juist extra smaak toe aan de tosti</p>
+<p class="sterretje">*als vervanger voor je tosti-ijzer kun je je tosti ook bakken in een pan!</p>
+<footer>&copy;by Mads™ Veluws College Walterbosch </footer>
+</body>
+</html>
